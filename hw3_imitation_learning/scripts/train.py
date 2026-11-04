@@ -28,7 +28,7 @@ from hw3.model import BasePolicy, build_policy
 from torch.utils.data import DataLoader, random_split
 
 # TODO: Choose your own hyperparameters!
-EPOCHS = 2
+EPOCHS = 5
 BATCH_SIZE = 8
 LR = 0.0001
 VAL_SPLIT = 0.1
@@ -69,7 +69,9 @@ def evaluate(
 
     for batch in loader:
         states, action_chunks = batch
-        # TODO: Implement the evaluation step for one batch here.
+        n_batches += 1
+        val_loss = model.compute_loss(states, action_chunks)
+        total_loss += val_loss.item()
 
     return total_loss / max(n_batches, 1)
 
