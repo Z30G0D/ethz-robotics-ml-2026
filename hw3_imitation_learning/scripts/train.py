@@ -48,11 +48,12 @@ def train_one_epoch(
         # TODO: Implement the training step for one batch here.
         # This mostly: Get states and action_chunks onto the correct device, compute the loss, and step the optimizer.
         states, action_chunks = batch
-
+        optimizer.zero_grad()
         loss = model.compute_loss(states, action_chunks)
-        total_loss+=loss
+        loss.backward()
         optimizer.step()
-
+        total_loss += loss.item()
+        n_batches += 1
     return total_loss / max(n_batches, 1)
 
 
