@@ -14,10 +14,10 @@ Each homework keeps its own instructions:
 
 ## Media
 
-<video src="./assets/PXL_20261108_091225826%7E2.mp4" controls width="320"></video>
+Phone clip:
 
-`assets/PXL_20261108_091225826~2.mp4`
+https://github.com/user-attachments/assets/fcdc4283-7a03-4572-b137-aa490db704e7
 
-<video src="./assets/teleop_wrist.mov" controls width="320"></video>
+Wrist teleop:
 
-`assets/teleop_wrist.mov`
+https://github.com/user-attachments/assets/fbe6c808-60f7-40d0-879c-07daf9d2086f
