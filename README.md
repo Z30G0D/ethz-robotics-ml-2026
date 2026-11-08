@@ -14,10 +14,6 @@ Each homework keeps its own instructions:
 
 ## Media
 
-<video src="./assets/PXL_20260830_133239585%7E2.mp4" controls width="320"></video>
-
-`assets/PXL_20260830_133239585~2.mp4`
-
 <video src="./assets/PXL_20261108_091225826%7E2.mp4" controls width="320"></video>
 
 `assets/PXL_20261108_091225826~2.mp4`
