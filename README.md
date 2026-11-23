@@ -4,6 +4,7 @@ This repository is a personal working clone of the 2026 ETH Zurich Robot Learnin
 
 - Course page: [cvg.ethz.ch/lectures/Robot-Learning](https://cvg.ethz.ch/lectures/Robot-Learning/)
 - Upstream code: [mees-robot-learning-course/ethz-course-2026](https://github.com/mees-robot-learning-course/ethz-course-2026)
+- Course notes: [Z30G0D/ethz-robotics-ml-2026-notes](https://github.com/Z30G0D/ethz-robotics-ml-2026-notes)
 
 Each homework keeps its own instructions:
 
